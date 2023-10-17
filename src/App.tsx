@@ -1,10 +1,10 @@
-
+import EventList from './components/EventList'
 
 function App() {
 
   return (
     <>
-      <p>Home PAge</p>
+      <EventList/>
     </>
   )
 }
