@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <>
+    <div className='search'>
      <div class="searchBar">
         <input class=""
           type="search" name="search" placeholder="Search"/>
@@ -16,7 +16,13 @@ const SearchBar = () => {
           </svg> */}
         </button>
       </div>
-      </>
+      <div className='searchCriteria'>
+        <button className='roundedButton'>Criteria</button>
+      </div>
+      <div className='searchCriteria'>
+        <button className='roundedButton'>Criteria</button>
+      </div>
+      </div>
   )
 }
 
